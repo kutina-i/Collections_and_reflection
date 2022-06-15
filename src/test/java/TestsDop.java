@@ -7,7 +7,6 @@ public class TestsDop {
     @Test
     public void Test1(){
         Human h1 = new Human("Асаевич", "Никитка", "Сергеевна", 27);
-      //  List<String> numbersH1 = new ArrayList<>();
         PhoneBook pb1 = new PhoneBook();
         assertNull(pb1.getListNumbers(h1));
 
